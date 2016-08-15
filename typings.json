@@ -1,0 +1,5 @@
+{
+  "globalDependencies": {
+    "threejs": "github:DefinitelyTyped/DefinitelyTyped/threejs/three.d.ts#a6191ce9e55e5dc996a552d49b4a9a2ce898263a"
+  }
+}

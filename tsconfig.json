@@ -1,6 +1,7 @@
 {
     "files": [
-        "src/ts/*"
+        "src/ts/*",
+        "typings/require.d.ts"
     ],
     "compilerOptions": {
         "noImplicitAny": true,
