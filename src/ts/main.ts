@@ -1,4 +1,3 @@
-/// <reference path="../../typings/globals/threejs/index.d.ts" />
 import three = require('three');
 
 export function test(): void{

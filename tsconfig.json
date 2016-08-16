@@ -1,13 +1,16 @@
 {
     "files": [
         "src/ts/main.ts",
-        "typings/require.d.ts"
+        "typings/index.d.ts"
     ],
     "exclude":[
       "node_modules"
     ],
     "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
         "noImplicitAny": true,
-        "target": "es2015"
+        "module": "commonjs",
+        "target": "es5"
     }
 }
