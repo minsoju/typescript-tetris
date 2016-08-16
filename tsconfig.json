@@ -1,7 +1,10 @@
 {
     "files": [
-        "src/ts/*",
+        "src/ts/main.ts",
         "typings/require.d.ts"
+    ],
+    "exclude":[
+      "node_modules"
     ],
     "compilerOptions": {
         "noImplicitAny": true,

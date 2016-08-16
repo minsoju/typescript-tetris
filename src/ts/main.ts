@@ -1,8 +1,9 @@
-import { sayHello } from "./greet";
+/// <reference path="../../typings/globals/threejs/index.d.ts" />
+import three = require('three');
 
-function showHello(divName: string, name: string) {
-    const elt = document.getElementById(divName);
-    elt.innerText = sayHello(name);
+export function test(): void{
+  let scene = new three.Scene();
+  let camera = new three.OrthographicCamera(10, 2, 3, 1, 1000);
+
+  let renderer = new three.WebGLRenderer();
 }
-
-showHello("greeting", "tesasdfasdgasgdos");
